@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/normalize.css">
+	<link rel="stylesheet" href="./css/main.css">
+	<title>Ticket desk demo by Oleksii Dovbakh</title>
+</head>
+<body>
+	<div id="rotate"> <!--Prompt to rotate the device-->
+		<img src="img/rotate.gif" alt="rotate to landscape mode">
+		<p>Please, rotate your device to landscape mode</p>
+	</div>	
+	<div class="screen"><img src="./img/screen.png" alt="cinema screen"></div>
+	<div id="root" class="root"></div>
+
+	<!-- The Modal -->
+	<div id="myModal" class="modal">
+
+		<!-- Modal content -->
+		<div class="modal-content">						
+		</div>
+
+	</div>
+
+	<!-- SIDE -->
+	<div id="sideMenu" class="sideMenu">
+		<h2>Ваш заказ:</h2>
+		<!-- Side content -->
+		<div class="sideMenu__content">						
+		</div>
+		<p id="order__sum"></p>
+		<p id="order__timer" class="order__timer"></p>
+	</div>
+	<script src="./js/main.js"></script>
+</body>
+</html>
